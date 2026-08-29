@@ -48,16 +48,15 @@ a { color: var(--red); }
 .nav-main a:hover,
 .nav-main a[aria-current="page"] { color: var(--red); }
 main { padding: 40px 0 64px; }
-h1 {
-  margin: 0 0 16px;
+h1, h2 {
+  margin: 0 0 14px;
   color: var(--navy);
-  font-size: 28px;
   font-weight: 700;
 }
+h1 { font-size: 28px; }
+h2 { font-size: 18px; margin-top: 32px; }
 .who p { margin: 0 0 14px; }
-.who p:last-child { margin-bottom: 0; }
-.office { margin-top: 28px; color: var(--muted); }
-.office p { margin: 0 0 8px; }
+.office { color: var(--muted); }
 .site-footer {
   background: var(--navy);
   color: #c5ced8;
@@ -93,8 +92,11 @@ h1 {
   <div class="wrap who">
     <h1>Who we are</h1>
     <p>M &amp; S Loads LLC operates MS Express, a reefer trucking company in Hastings, Nebraska. We haul temperature-controlled freight.</p>
-    <p>Office: 600 E 39th St, Hastings, NE 68901<br>
+    <p class="office">600 E 39th St, Hastings, NE 68901<br>
     <a href="mailto:info@msloads.com">info@msloads.com</a> · 402-302-0097</p>
+    <h2>Privacy</h2>
+    <p>We use the phone numbers and load details we already have to dispatch freight. We do not sell personal information. We do not share mobile numbers with third parties for their marketing.</p>
+    <p>SMS and WhatsApp are for load and appointment updates with people who have opted in. Message frequency varies with the load. Message and data rates may apply. Reply <strong>STOP</strong> to opt out of SMS, or tell dispatch to stop WhatsApp. Reply <strong>HELP</strong> for help. Full details: <a href="/privacy.html">Privacy</a> and <a href="/messaging.html">Messaging terms</a>.</p>
   </div>
 </main>
 <footer class="site-footer">
